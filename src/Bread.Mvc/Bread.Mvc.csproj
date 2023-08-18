@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<Description>A mvc framework for dotnet application development which fully support native aot.</Description>
+		<PackageTags>bread, mvc, aot, native, fast, ioc, avalonia, wpf</PackageTags>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\ReadMe.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Bread.Utility" Version="1.3.5" />
+	  <PackageReference Include="Bread.ZeroIoC" Version="0.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="ReadMe.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>

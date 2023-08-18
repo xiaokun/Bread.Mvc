@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Description>A collection of helper classes for WPF application base on Bread.Mvc.</Description>
+		<PackageTags>bread;mvc;wpf</PackageTags>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="Bread.Mvc" Version="1.3.5" />
+	</ItemGroup>
+</Project>

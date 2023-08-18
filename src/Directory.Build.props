@@ -1,0 +1,22 @@
+<Project>
+
+	<PropertyGroup>
+		<Title>$(AssemblyName)</Title>
+		<OutputType>Library</OutputType>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+    <PropertyGroup>
+        <Version>1.3.5</Version>
+        <Authors>fuxiaokun</Authors>
+        <Owners>fuxiaokun</Owners>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/xiaokun/Bread.Mvc</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/xiaokun/Bread.Mvc</RepositoryUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+</Project>

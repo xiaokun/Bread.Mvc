@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<Description>A collection of helper classes for Avalonia application base on Bread.Mvc.</Description>
+		<PackageTags>Avalonia, mvc, bread, aot, native</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia.Desktop" Version="11.0.3" />
+		<PackageReference Include="Bread.Mvc" Version="1.3.5" />
+	</ItemGroup>
+
+</Project>
