@@ -3,11 +3,19 @@
 		<TargetFrameworks>net7.0</TargetFrameworks>
 		<Description>A collection of helper classes for Avalonia application base on Bread.Mvc.</Description>
 		<PackageTags>Avalonia, mvc, bread, aot, native</PackageTags>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Avalonia.Desktop" Version="11.0.3" />
 		<PackageReference Include="Bread.Mvc" Version="1.3.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="ReadMe.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
